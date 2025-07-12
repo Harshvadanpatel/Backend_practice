@@ -8,7 +8,6 @@ dotenv.config({
     path:'.env'
 })
 
- 
 
 
 connectDB()
@@ -19,7 +18,7 @@ connectDB()
 })
 .catch((err)=>{
     console.log("Mongodb connection failed!",err)
-  })
+})
 
 
 
